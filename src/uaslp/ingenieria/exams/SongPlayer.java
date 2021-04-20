@@ -11,12 +11,6 @@ public class SongPlayer {
         Instrument instrument = new Piano();
         Iterator<Nota> notas = song.getSongIterator();
 
-        /*
-        Piano piano = new Piano();
-        Guitarra guitarra = new Guitarra();
-        Violin violin = new Violin();
-        Flauta flauta = new Flauta();*/
-
        while (notas.hasNext()) {
             Nota nota = notas.next();
             instrument.getName();
